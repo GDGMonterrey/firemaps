@@ -17,7 +17,7 @@ gulp.task('transpile-less', function(){
 
 gulp.task('transpile-coffee', function(){
   return gulp.src("app/coffee/map.coffee")
-    .pipe(coffee())
+    .pipe(coffee({bare: true}))
     .pipe(gulp.dest('build/js'))
 });
 
