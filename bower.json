@@ -6,4 +6,8 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/GDGMonterrey/firemaps",
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "geofire": "^4.0.0"
+  }
 }
